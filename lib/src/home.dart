@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_route_sample/src/second.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});

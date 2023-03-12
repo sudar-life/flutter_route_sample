@@ -17,8 +17,10 @@ class ThirdPage extends StatelessWidget {
               style: TextStyle(fontSize: 50),
             ),
             ElevatedButton(
-              onPressed: () {},
-              child: const Text('세번째 페이지로 이동'),
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: const Text('뒤로 이동'),
             ),
             ElevatedButton(
               onPressed: () {
